@@ -374,7 +374,7 @@
 
 html {
     scroll-behavior: smooth;
-    box-sizing: border-box;
+    box-sizing: content-box;
     font-size: 62.5%;
 }
 
