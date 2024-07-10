@@ -467,8 +467,13 @@
 .navbar-menu {
     float: right;
 }
-
-.nav [class="nav-item"] {
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+.nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -477,12 +482,12 @@
     margin: var(--nav-item-margin);
 }
 
-.nav [class="nav-link"] {
+.nav-link {
     display: block;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 
-.nav [class="nav-link"]:hover {
+.nav-link:hover {
     color: var(--nav-item-link-hover);
 }
