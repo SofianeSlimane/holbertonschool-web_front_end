@@ -379,7 +379,7 @@
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: 4rem;
+    --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
@@ -474,7 +474,7 @@
     text-align: center;
   }
 
-.nav[class="nav-item"] {
+nav[class="nav-item"] {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -483,7 +483,7 @@
     margin: var(--nav-item-margin);
 }
 
-.nav[class="nav-link"] {
+nav[class="nav-link"] {
     display: block;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -491,6 +491,6 @@
     padding-right: 1rem;
 }
 
-.nav[class="nav-link"]:hover {
+nav[class="nav-link"]:hover {
     color: var(--nav-item-link-hover);
 }
