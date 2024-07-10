@@ -483,9 +483,7 @@
     margin: var(--nav-item-margin);
   }
 
-.nav [class="nav-link"] {
-    display: block;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-  }
 
-
+.nav [class="nav-link"]:hover {
+    color: var(--nav-item-link-hover);
+}
