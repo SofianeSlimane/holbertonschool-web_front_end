@@ -381,7 +381,7 @@
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 0 3rem 0;
+    --nav-item-margin: 0rem 0rem 3rem 0rem;
     --nav-item-link-hover: var(--color-primary);
 
   }
@@ -473,7 +473,14 @@
     list-style: none;
     text-align: center;
   }
-
+.nav [class="nav-item"] {
+    font-family: var(--nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
+    margin: var(--nav-item-margin);
+}
 
 .nav [class="nav-link"] {
     display: block;
