@@ -464,9 +464,9 @@
   .footer {
     padding: var(--footer-padding);
   }
-  .navbar-menu {
+.navbar-menu {
     float: right;
-  }
+}
 .nav {
     margin: 0;
     padding: 0;
@@ -474,7 +474,7 @@
     text-align: center;
   }
 
-  .nav [class="nav-item"] {
+.nav [class="nav-item"] {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -483,12 +483,9 @@
     margin: var(--nav-item-margin);
   }
 
-  .nav [class="nav-link"] {
+.nav [class="nav-link"] {
     display: block;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
   }
 
 
