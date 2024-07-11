@@ -489,5 +489,5 @@
 }
 
 .nav .nav-link:hover {
-    
+    color: var(--nav-item-link-hover);
 }
