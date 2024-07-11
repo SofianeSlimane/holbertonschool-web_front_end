@@ -495,7 +495,7 @@
       color: var(--nav-item-link-hover);
   }
 
-  ul .row {
+  ul[class="row"] {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -511,7 +511,7 @@
     padding: 0.5rem;
   }
   .footer-copyright {
-    
+    margin: 0;
     font-size: var(--font-size-small);
     color: var(--text-color);
   }
