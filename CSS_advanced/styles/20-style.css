@@ -521,6 +521,6 @@
 
   .row::after{
     content: none;
-    display: table;
+    display: table-row;
     clear: both;
   }
