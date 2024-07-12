@@ -617,6 +617,6 @@
   .header-logo a {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
-    
-    
+    top: var(--header-logo-link-top);
+    bottom: var(--header-logo-link-left);
   }
