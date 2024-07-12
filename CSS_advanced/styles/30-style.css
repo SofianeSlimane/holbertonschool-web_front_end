@@ -665,7 +665,7 @@
     position: relative;
   }
 
-  .card-title .card-work a {
+  .card-work .card-title a {
     display: block;
     text-decoration: none;
     padding-top: 45%;
