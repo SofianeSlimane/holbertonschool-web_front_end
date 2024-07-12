@@ -671,7 +671,7 @@
     padding-top: 45%;
   }
 
-  .card-title.card-work a::after {
+  .card-title .card-work a::after {
     position: absolute;
     position: 0;
     content: "";
