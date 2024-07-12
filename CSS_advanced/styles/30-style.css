@@ -634,7 +634,7 @@
     width: 100%;
   }
 
-  .card-work .card-work {
+  .card-work .card-outer {
     position: relative;
     overflow: hidden;
   }
