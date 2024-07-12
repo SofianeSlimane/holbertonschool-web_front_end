@@ -684,7 +684,7 @@
 }
 
 .card-testimonial .card-quote {
-    position: relative;
+    position: inherit;
 }
 
 .card-testimonial .card-quote::before {
